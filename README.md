@@ -7,7 +7,7 @@ I found an old Creality CR-10 by a trash can and I decided to spin off a new pro
 
 I will be updating this page with my progress as I go.
 
-## Checkpoint 1 - Y-axis Mechanical Design
+<h2 align="center">Y-axis Mechanical Design | <em>2026-04-23</em></h2>
 
 I am now working on the mechanical design, currently focusing on the Y-axis of the gantry. I decided to go with a moving bed design, as my end effector will probably be heavier than the parts it will cut.
 
@@ -22,8 +22,7 @@ So far, the design is looking like this:
 ![model:assets/Millie.glb](./assets/model-viewer.png)
 
 
-
-## Checkpoint 0 - Initial Thoughts
+<h2 align="center">Initial Thoughts | <em>2026-04-17</em></h2>
 
 - The CR-10 gave me a good starting point with some useful parts - mostly the aluminum frame, lead screws, steppers, and many types of bearings.
 
