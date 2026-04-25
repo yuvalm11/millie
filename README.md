@@ -1,5 +1,4 @@
 # Millie - A Small CNC Mill
-*##### WORK IN PROGRESS #####*
 
 ---
 
@@ -7,7 +6,24 @@ I found an old Creality CR-10 by a trash can and I decided to spin off a new pro
 
 I will be updating this page with my progress as I go.
 
-<h2 align="center">Y-axis Mechanical Design | <em>2026-04-23</em></h2>
+<h2 align="center">Finalize Y-Axis, Some X-Axis | <em>2026-04-25</em></h2>
+
+I spent some time finalizing the Y-axis design, focusing on the parts connecting the bed to the linear rail carriages and the lead screw carriage.
+
+The rail carriages were pretty straightforward to design, I just tried to make them beefy enough to eliminate any unwanted wobble.
+
+For the lead screw carriage, I wanted to allow some X-axis play while keeping the Y-axis rigid. I considered mounting the nut using slots on the carriage but that felt a little unreliable as after assembly the tightened screws will discard the X-axis play I;m looking for. 
+
+Eventually, considering the flexibility of the PLA plastic I use, I chose to design the carriage with two relatively long arms that connects the nut to the bed. The arms allow tiny movements on the X direction but will stay steady in the Y direction. With the anti-backlash nut I'll be using, I should be able to achieve a good precision on the Y axis movement.
+
+![model:assets/25-04/Millie.glb](./assets/25-04/model-viewer.png)
+
+I also started working on the X-axis design. I cut one of the longer CR-10 extrusions in half and connected them to the frame with M5s. I made sure everything is aligned and well tightened and I was honestly surprised by how solid it feels now. I made some measurements and it looks straight as well so I'm happy with how it's turning out.
+
+For the X-axis I will connect two more MGN12s on to the frame, with one carriage on each. I will mount the motor on the side with another lead screw along the axis. The design of this axis seem to be less challenging than the y axis but we'll see how it goes.
+
+
+<h2 align="center">Y-Axis Mechanical Design | <em>2026-04-23</em></h2>
 
 I am now working on the mechanical design, currently focusing on the Y-axis of the gantry. I decided to go with a moving bed design, as my end effector will probably be heavier than the parts it will cut.
 
@@ -19,7 +35,7 @@ I already printed and assembled the motor and lead screw and will be ordering th
 
 So far, the design is looking like this:
 
-![model:assets/Millie.glb](./assets/model-viewer.png)
+![model:assets/23-04/Millie.glb](./assets/23-04/model-viewer.png)
 
 
 <h2 align="center">Initial Thoughts | <em>2026-04-17</em></h2>
@@ -32,7 +48,7 @@ So far, the design is looking like this:
 
 - I plan on using the lead screws for the Y axis - something of that sort: 
 
-![Lead screw](./assets/y-axis.webp)
+![Lead screw](./assets/17-04/y-axis.webp)
 
 - there's no need for a super long Z axis like in the CR-10, so i think I'll go for a shorter rack and pinion setup close to the spindle that will allow a ~10 cm of Z axis travel. 
 
